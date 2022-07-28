@@ -10,7 +10,5 @@ License: LGPL-3
 URL: https://github.com/pik-piam/{{ cookiecutter.project_slug }}
 Suggests:
     testthat
-VignetteBuilder:
-    knitr
 Encoding: UTF-8
 RoxygenNote: 7.2.1
