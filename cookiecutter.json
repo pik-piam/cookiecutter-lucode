@@ -1,0 +1,8 @@
+{
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "title": "One-line description of this awesome package.",
+    "description": "One-paragraph description of this awesome package.",
+    "given_name": "Your given name",
+    "family_name": "Your family name",
+    "email": "Your (pik) email address"
+}

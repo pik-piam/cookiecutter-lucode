@@ -1,0 +1,16 @@
+Type: Package
+Package: {{ cookiecutter.project_slug }}
+Title: {{ cookiecutter.title }}
+Version: 0.0.1
+Date: {% now 'local' %}
+Authors@R:
+    person("{{ cookiecutter.given_name }}", "{{ cookiecutter.family_name }}", , "{{ cookiecutter.email }}", role = c("aut", "cre"))
+Description: {{ cookiecutter.description }}
+License: LGPL-3
+URL: https://github.com/pik-piam/{{ cookiecutter.project_slug }}
+Suggests:
+    testthat
+VignetteBuilder:
+    knitr
+Encoding: UTF-8
+RoxygenNote: 7.2.1
