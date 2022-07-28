@@ -3,5 +3,4 @@ represented in the cookiecutter git repo because git doesn't know empty director
 
 import pathlib
 
-
 pathlib.Path("R").mkdir()
