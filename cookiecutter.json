@@ -1,6 +1,6 @@
 {
-    "project_name": "My awesome package",
-    "project_slug": "{{ cookiecutter.project_name[0].lower() + cookiecutter.project_name.title()[1:] }}",
+    "project_name": "My awesome package (may only contain letters, numbers, and spaces)",
+    "project_slug": "{{ (cookiecutter.project_name[0].lower() + cookiecutter.project_name.title()[1:]).replace(' ', '') }}",
     "title": "One-line description of this awesome package.",
     "description": "One-paragraph description of this awesome package.",
     "given_name": "Your given name",
