@@ -1,7 +1,6 @@
 # cookiecutter-lucode
 
-A template for an R package using [lucode2](https://github.com/pik-piam/lucode2) to automate manual tasks.
-Mostly useful if you want to create a package in the [PIK PIAM](https://github.com/pik-piam) universe.
+A template for an R package using [lucode2](https://github.com/pik-piam/lucode2) to automate creating a package in the [PIK PIAM](https://github.com/pik-piam) universe.
 
 ## Instructions
 
