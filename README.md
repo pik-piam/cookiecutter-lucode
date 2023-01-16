@@ -29,6 +29,8 @@ gh repo create --public --push --source . pik-piam/<your package name>
 gh repo fork
 ```
 
+This may fail because you don't have the necessary permissions on github. In that case, please contact RSE.
+
 Alternatively, you can do this all with the github web interface and the terminal:
 1. Create a new repository via the web interface at [github:pik-piam](https://github.com/organizations/pik-piam/repositories/new).
 2. Add the github repository as your remote in git using `git remote add upstream https://github.com/pik-piam/<your_project>`.
@@ -38,4 +40,8 @@ Alternatively, you can do this all with the github web interface and the termina
 
 **Run buildLibrary for the first time**
 
-Run `Rscript -e 'lucode2::buildLibrary()'` for the first time to get the latest configs for everything.
+Run `Rscript -e 'lucode2::buildLibrary()'` for the first time to get the latest configs for everything. Commit and push the result.
+
+**Contact RSE to begin distributing the new package**
+
+To be able to easily install the package in R, the new package needs to be added to the pik-piam package repository, which can be done only by RSE, so please contact us.
